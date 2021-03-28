@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,400;0,700;1,400&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -9,13 +11,13 @@
     --navColor: rgb(9, 43, 77);
 }
 
-/* body{
-    background-color: blueviolet;
-} */
+body{
+    font-family: 'Averia Serif Libre', cursive;
+}
 
 .container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 12rem auto auto;
     grid-template-areas: "nav nav nav"
         "side-bar main-content main-content"
         "footer footer footer";
@@ -42,24 +44,34 @@
 
 .side-bar {
     grid-area: side-bar;
-    width: 10rem;
+    width: 12rem;
     color: white;
-    background-color: skyblue;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    background-color: rgb(238, 179, 15);
+    display: grid;
+    grid-column: auto;
     height: 100%;
-    /* width: 250px; */
     position: fixed;
     overflow: scroll;
     z-index: 1;
-    top: 80px;
+    top: 75px;
     left: 0;
+
+
+}
+
+.side-bar>a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+
+}
+
+.side-bar>a:hover {
+    color: blue;
 }
 
 .main-content {
     grid-area: main-content;
-    background-color: brown;
 }
 
 .footer {
