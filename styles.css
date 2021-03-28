@@ -23,14 +23,13 @@ body{
         "footer footer footer";
 }
 
-.icon-height {
-    height: 40px;
-    width: 40px;
-}
+
 
 .nav {
     grid-area: nav;
     background-color: var(--navColor);
+    position: fixed;
+    width: 100%;
     padding: 1rem;
     font-size: larger;
     color: var(--primaryColor);
@@ -44,7 +43,7 @@ body{
 
 .side-bar {
     grid-area: side-bar;
-    width: 12rem;
+    width: 15rem;
     color: white;
     background-color: rgb(238, 179, 15);
     display: grid;
@@ -72,6 +71,7 @@ body{
 
 .main-content {
     grid-area: main-content;
+    margin-top: 3.5rem;
 }
 
 .footer {
