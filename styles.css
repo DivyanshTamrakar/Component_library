@@ -54,8 +54,6 @@ body{
     z-index: 1;
     top: 75px;
     left: 0;
-
-
 }
 
 .side-bar>a {
@@ -72,9 +70,11 @@ body{
 .main-content {
     grid-area: main-content;
     margin-top: 3.5rem;
+    text-align: center;
 }
 
 .footer {
     grid-area: footer;
     background-color: green;
 }
+

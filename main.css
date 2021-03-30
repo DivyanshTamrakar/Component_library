@@ -11,7 +11,7 @@
     --navColor: rgb(9, 43, 77);
 }
 
-body{
+body {
     font-family: 'Averia Serif Libre', cursive;
 }
 
@@ -44,6 +44,11 @@ body{
 .ml-3 {
 
     margin-left: 3rem;
+}
+
+.ml-5 {
+
+    margin-left: 5rem;
 }
 
 
@@ -93,19 +98,19 @@ body{
 }
 
 .padding1 {
-    margin: 1rem;
+    padding: 1rem;
 }
 
 .padding2 {
-    margin: 2rem;
+    padding: 2rem;
 }
 
 .padding3 {
-    margin: 3rem;
+    padding: 3rem;
 }
 
 .padding4 {
-    margin: 4rem;
+    padding: 4rem;
 }
 
 
@@ -169,27 +174,123 @@ body{
 
     padding-bottom: 3rem;
 }
-.text-align-center{
-    text-align: center;
-}
-.text-align-left{
-    text-align: center;
-}
-.text-align-right{
+
+.text-align-center {
     text-align: center;
 }
 
-.heading-bold{
+.text-align-left {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: center;
+}
+
+.heading-bold {
     font-size: 30px;
     color: black;
 }
-.min-font-size{
-font-size: 20px;    
+
+.min-font-size {
+    font-size: 20px;
 }
-.text-shadow-effect{
+
+.text-shadow-effect {
     text-shadow: 2px 2px 5px grey;
 }
+
 .icon-height {
     height: 40px;
     width: 40px;
 }
+
+.avatar>img {
+    width: 10%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.rounded>img {
+    border-radius: 50%;
+}
+
+.very-small>img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.medium-small>img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.medium>img {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.large>img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.extra-large>img {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.dot-online {
+    height: 15px;
+    width: 15px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+
+}
+
+.dot-offline {
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 28.5rem;
+
+}
+.fontWeight{
+    font-weight: bolder;
+    
+}
+.alert {
+    padding: 1rem;
+    background-color: transparent;
+    color: white;
+  }
+  .alert-danger {
+    padding: 1rem;
+    background-color: #f44336;
+    color: white;
+  }
+  .alert-success {
+    padding: 1rem;
+    background-color: green;
+    color: white;
+  }
+  .alert-warning {
+    padding: 1rem;
+    background-color: yellow;
+    color: white;
+  }
+  .alert-info{
+    padding: 1rem;
+    background-color: skyblue;
+    color: white;
+  }
+  
