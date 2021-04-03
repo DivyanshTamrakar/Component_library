@@ -547,6 +547,47 @@ body {
 .text-color-green {
     color: green;
 }
-.small{
+
+.small {
     font-size: 14px;
+}
+
+.modal {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 40%;
+    padding: 0.5rem;
+    margin: 1rem 1rem 1rem 18rem;
+    /* margin-left: 10rem; */
+    color: black;
+    border-radius: 0.5rem;
+
+
+
+}
+
+.modal-content {
+    padding: 0.5rem;
+}
+
+.form {
+    padding: 0.4rem;
+    width: 50%;
+    background-color: grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5rem;
+    margin: 1rem 1rem 1rem 14rem;
+
+}
+
+.input-form {
+    border: 2px solid black;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 40%;
+
+
 }
