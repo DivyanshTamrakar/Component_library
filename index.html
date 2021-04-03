@@ -37,7 +37,7 @@
             <a class="margin1 ml-3" href="#Modal">Modal</a>
             <a class="margin1 ml-3" href="#Rating">Ratings</a>
             <a class="margin1 ml-3" href="#Grid">Grids</a>
-            <a class="margin1 ml-3" href="#">Cards</a>
+            <a class="margin1 ml-3" href="#Cards">Cards</a>
             <a class="margin1 ml-3" href="#Toast">Toasts</a>
             <a class="margin1 ml-3" href="#TextUtility">Text Utilities</a>
             <a class="margin1 ml-3" href="#">Lists</a>
@@ -547,7 +547,40 @@
                 <div class="margin1">
                     <iframe
                         src="https://carbon.now.sh/embed?bg=rgba%289%2C43%2C77%2C1%29&t=seti&wt=none&l=javascript&ds=true&dsyoff=0px&dsblur=85px&wc=true&wa=true&pv=40px&ph=76px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522%2520margin1%2522%253E%250A%2520%253Clabel%2520for%253D%2522name%2522%253EName%2520%253A%253C%252Flabel%253E%250A%2520%253Cinput%2520class%253D%2522input-form%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520name%2522%2520%252F%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522margin1%2522%253E%250A%2520%253Clabel%2520for%253D%2522email%2522%253EEmail%2520%253A%253C%252Flabel%253E%250A%2520%253Cinput%2520class%253D%2522input-form%2522%2520type%253D%2522email%2522%2520class%253D%2522form-control%2522%2520placeholder%253D%2522Enter%2520email%2522%2520%252F%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522margin1%2522%253E%250A%2520%253Clabel%2520for%253D%2522password%2522%253EPassword%2520%253A%253C%252Flabel%253E%250A%2520%253Cinput%2520class%253D%2522input-form%2522%2520type%253D%2522password%2522%2520class%253D%2522form-control%2522%2520placeholder%253D%2522Enter%2520password%2522%2520%252F%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522margin1%2522%253E%250A%2520%253Clabel%2520for%253D%2522file%2522%253Eupload%2520File%253A%253C%252Flabel%253E%250A%2520%253Cinput%2520type%253D%2522file%2522%2520class%253D%2522form-control%2522%2520%252F%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%253E%253Cbutton%2520class%253D%2522btn%2520btn-submit%2522%253ESubmit%253C%252Fbutton%253E%253C%252Fdiv%253E"
-                        style="width: 1020px; height: 480px; border:0; transform: scale(1); overflow:hidden;"
+                        style="width: 80%; height: 480px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+
+                <div class="margin1 form">
+                    <div class=" margin1">
+                        <label for="name">Name <sup>*</sup>:</label>
+                        <input class="input-form" type="text" placeholder="Enter name" />
+                        <div class="error-message ml-1">Name must be filled</div>
+                    </div>
+                    <div class="margin1">
+                        <label for="email">Email :</label>
+                        <input class="input-form" type="email" class="form-control" placeholder="Enter email" />
+                        <div class="error-message">Email is needed</div>
+                    </div>
+                    <div class="margin1">
+                        <label for="password">Password :</label>
+                        <input class="input-form" type="password" class="form-control" placeholder="Enter password" />
+                        <div class="error-message ml-2">Password is required</div>
+                    </div>
+                    <div class="margin1">
+                        <label for="file">upload File:</label>
+                        <input type="file" class="form-control" />
+                    </div>
+                    <div><button class="btn btn-submit">Submit</button></div>
+
+
+                </div>
+                <div class="margin1">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%289%2C43%2C77%2C1%29&t=seti&wt=none&l=javascript&ds=true&dsyoff=0px&dsblur=85px&wc=true&wa=true&pv=40px&ph=76px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522margin1%2520form%2522%253E%250A%253Cdiv%2520class%253D%2522%2520margin1%2522%253E%250A%253Clabel%2520for%253D%2522name%2522%253EName%2520%253Csup%253E*%253C%252Fsup%253E%253A%253C%252Flabel%253E%250A%253Cinput%2520class%253D%2522input-form%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520name%2522%2520%252F%253E%250A%253Cdiv%2520class%253D%2522error-message%2520ml-1%2522%253EName%2520must%2520be%2520filled%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522margin1%2522%253E%250A%253Clabel%2520for%253D%2522email%2522%253EEmail%2520%253A%253C%252Flabel%253E%250A%253Cinput%2520class%253D%2522input-form%2522%2520type%253D%2522email%2522%2520class%253D%2522form-control%2522%2520placeholder%253D%2522Enter%2520email%2522%2520%252F%253E%250A%253Cdiv%2520class%253D%2522error-message%2522%253EEmail%2520is%2520needed%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522margin1%2522%253E%250A%253Clabel%2520for%253D%2522password%2522%253EPassword%2520%253A%253C%252Flabel%253E%250A%253Cinput%2520class%253D%2522input-form%2522%2520type%253D%2522password%2522%2520class%253D%2522form-control%2522%2520placeholder%253D%2522Enter%2520password%2522%2520%252F%253E%250A%253Cdiv%2520class%253D%2522error-message%2520ml-2%2522%253EPassword%2520is%2520required%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522margin1%2522%253E%250A%253Clabel%2520for%253D%2522file%2522%253Eupload%2520File%253A%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522file%2522%2520class%253D%2522form-control%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%253E%253Cbutton%2520class%253D%2522btn%2520btn-submit%2522%253ESubmit%253C%252Fbutton%253E%253C%252Fdiv%253E"
+                        style="width: 80%; height: 556px; border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
@@ -556,11 +589,89 @@
 
 
 
-
             </section>
 
 
+            <!-- Badges -->
+            <section id="Badges">
+                <div class=" margin1 heading-bold text-align-center" style="font-size: 60px;">Badges</div>
 
+                <div class="heading-bold margin1">Badge on Button</div>
+                <div class="margin1">
+
+                    <a href="#" class="notification">
+                        <span>Inbox</span>
+                        <span class="badge">3</span>
+                    </a>
+                    <a href="#" class="notification">
+                        <span>Home</span>
+                        <span class="badge">4</span>
+                    </a>
+                    <a href="#" class="notification">
+                        <span>Message</span>
+                        <span class="badge">5</span>
+                    </a>
+                </div>
+
+                <div class="margin">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%289%2C43%2C77%2C1%29&t=seti&wt=none&l=javascript&ds=true&dsyoff=0px&dsblur=85px&wc=true&wa=true&pv=40px&ph=76px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522notification%2522%253E%250A%2520%2520%253Cspan%253EInbox%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge%2522%253E3%253C%252Fspan%253E%250A%2520%2520%253C%252Fa%253E%250A%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522notification%2522%253E%250A%2520%2520%253Cspan%253EHome%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge%2522%253E4%253C%252Fspan%253E%250A%2520%2520%253C%252Fa%253E%250A%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522notification%2522%253E%250A%2520%2520%253Cspan%253EMessage%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge%2522%253E5%253C%252Fspan%253E%250A%2520%2520%253C%252Fa%253E"
+                        style="width: 80%; height: 385px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+
+                <div class="heading-bold margin1">Badge on Icons</div>
+                <div class="margin1">
+
+                    <a href="#" class="notification">
+                        <span><i class="fa fa-shopping-cart"></i> </span>
+                        <span class="badge">3</span>
+                    </a>
+                    <a href="#" class="notification">
+                        <span><i class="fa fa-bell-o"></i> </span>
+                        <span class="badge">4</span>
+                    </a>
+                    <a href="#" class="notification">
+                        <span><i class="fa fa-home"></i> </span>
+                        <span class="badge">5</span>
+                    </a>
+                </div>
+
+
+
+
+                <div class="margin">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%289%2C43%2C77%2C1%29&t=seti&wt=none&l=javascript&ds=true&dsyoff=0px&dsblur=85px&wc=true&wa=true&pv=40px&ph=76px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522notification%2522%253E%250A%2520%253Cspan%253E%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%2520%253C%252Fspan%253E%250A%2520%253Cspan%2520class%253D%2522badge%2522%253E3%253C%252Fspan%253E%250A%2520%253C%252Fa%253E%250A%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522notification%2522%253E%250A%2520%253Cspan%253E%253Ci%2520class%253D%2522fa%2520fa-bell-o%2522%253E%253C%252Fi%253E%2520%253C%252Fspan%253E%250A%2520%253Cspan%2520class%253D%2522badge%2522%253E4%253C%252Fspan%253E%250A%2520%253C%252Fa%253E%250A%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522notification%2522%253E%250A%2520%253Cspan%253E%253Ci%2520class%253D%2522fa%2520fa-home%2522%253E%253C%252Fi%253E%2520%253C%252Fspan%253E%250A%2520%253Cspan%2520class%253D%2522badge%2522%253E5%253C%252Fspan%253E%250A%2520%253C%252Fa%253E"
+                        style="width: 80%; height: 385px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <div class="heading-bold margin1">Badge on Avatars</div>
+                <a href="#" class="avatar-badge rounded">
+                    <img src="https://image.freepik.com/free-vector/illustration-user-avatar-icon_53876-5907.jpg"
+                        height="100px" width="100px" />
+                    <span class="badgeAvatar">3</span>
+                </a>
+
+                <div class="margin1">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%289%2C43%2C77%2C1%29&t=seti&wt=none&l=javascript&ds=true&dsyoff=0px&dsblur=85px&wc=true&wa=true&pv=40px&ph=76px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522avatar-badge%2520rounded%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fimage.freepik.com%252Ffree-vector%252Fillustration-user-avatar-icon_53876-5907.jpg%2522%2520height%253D%2522100px%2522%2520width%253D%2522100px%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badgeAvatar%2522%253E3%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E"
+                        style="width: 80%; height: 252px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- Cards -->
+
+            <section id="Cards">
+
+
+            </section>
 
 
 
