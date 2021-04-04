@@ -21,6 +21,7 @@ body{
     grid-template-areas: "nav nav nav"
         "side-bar main-content main-content"
         "footer footer footer";
+        
 }
 
 
@@ -29,6 +30,7 @@ body{
     grid-area: nav;
     background-color: var(--navColor);
     position: fixed;
+    z-index: 3;
     width: 100%;
     padding: 1rem;
     font-size: larger;
@@ -51,7 +53,7 @@ body{
     height: 100%;
     position: fixed;
     overflow: scroll;
-    z-index: 1;
+    z-index: 2;
     top: 75px;
     left: 0;
 }
@@ -71,10 +73,24 @@ body{
     grid-area: main-content;
     margin-top: 3.5rem;
     text-align: center;
+    position: relative;
+    z-index: 1;
 }
 
 .footer {
     grid-area: footer;
-    background-color: green;
+    background-color: rgb(9, 43, 77);
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 5;
+    padding: 0.5rem;
 }
 
+.footer-icon-set{
+
+    display: flex;
+    justify-content: space-around;
+    margin: 0.5rem;
+    
+}

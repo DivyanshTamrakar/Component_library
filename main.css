@@ -5,6 +5,10 @@
     padding: 0px;
 }
 
+.cursor {
+    cursor: pointer;
+}
+
 :root {
     --primaryColor: white;
     --secondaryColor: black;
@@ -631,7 +635,8 @@ body {
     display: inline-block;
     border-radius: 2px;
 }
-.badgeAvatar{
+
+.badgeAvatar {
     position: absolute;
     top: 20px;
     right: 40px;
@@ -639,4 +644,100 @@ body {
     border-radius: 50%;
     background-color: yellow;
     color: black
+}
+
+.Card-with-Shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* margin-left: 25rem;
+     */
+    margin-inline-start: 25rem;
+
+
+    padding: 0.3rem;
+    border: 1px solid black;
+    width: 9rem;
+}
+
+.card-vertical {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.Card-Horizontal {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-inline-start: 25rem;
+    display: grid;
+    grid-template-columns: auto auto;
+
+    padding: 0.3rem;
+    border: 1px solid black;
+    width: max-content;
+
+
+
+}
+
+.Card-Text {
+    margin-inline-start: 25rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+    width: max-content;
+
+}
+
+.Card-Overlay {
+    position: relative;
+    margin-inline-start: 25rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+    width: max-content;
+
+
+}
+
+.overlay {
+    position: absolute;
+    top: 5rem;
+    left: 2rem;
+
+
+}
+
+
+.Card-dismiss {
+    position: relative;
+    margin-inline-start: 25rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+    width: max-content;
+
+
+}
+
+.cross-btn {
+    border-radius: 50rem;
+    border: 1px solid gray;
+    width: fit-content;
+    padding: 0.5rem;
+    background-color: transparent;
+    color: grey;
+    font-weight: 20rem;
+}
+
+.dismiss {
+    position: absolute;
+    top: 0.2rem;
+    right: 0.4rem;
+}
+
+.Trending-badge {
+    width: max-content;
+    position: absolute;
+    left: 0rem;
+    top: 1rem;
+    padding: 0.1rem;
+    background-color: rgb(255, 134, 154);
+    color: white;
+    font-weight: bold;
 }
