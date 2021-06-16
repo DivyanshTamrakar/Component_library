@@ -1,0 +1,743 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+:root {
+    --primaryColor: white;
+    --secondaryColor: black;
+    --navColor: rgb(9, 43, 77);
+}
+
+body {
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+.margin1 {
+    margin: 1rem;
+}
+
+.margin2 {
+    margin: 2rem;
+}
+
+.margin3 {
+    margin: 3rem;
+}
+
+.margin4 {
+    margin: 3rem;
+}
+
+.ml-1 {
+
+    margin-left: 1rem;
+}
+
+.ml-2 {
+
+    margin-left: 2rem;
+}
+
+.ml-3 {
+
+    margin-left: 3rem;
+}
+
+.ml-5 {
+
+    margin-left: 5rem;
+}
+
+
+.mr-1 {
+
+    margin-right: 1rem;
+}
+
+.mr-2 {
+
+    margin-right: 2rem;
+}
+
+.mr-3 {
+
+    margin-right: 3rem;
+}
+
+.mt-1 {
+
+    margin-top: 1rem;
+}
+
+.mt-2 {
+
+    margin-top: 2rem;
+}
+
+.mt-3 {
+
+    margin-top: 3rem;
+}
+
+.mb-1 {
+
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+
+    margin-bottom: 2rem;
+}
+
+.mb-3 {
+
+    margin-bottom: 3rem;
+}
+
+.padding0 {
+    padding: 0.5rem;
+}
+
+.padding1 {
+    padding: 1rem;
+}
+
+.padding2 {
+    padding: 2rem;
+}
+
+.padding3 {
+    padding: 3rem;
+}
+
+.padding4 {
+    padding: 4rem;
+}
+
+
+.pl-1 {
+
+    padding-left: 1rem;
+}
+
+.pl-2 {
+
+    padding-left: 2rem;
+}
+
+.pl-3 {
+
+    padding-left: 3rem;
+}
+
+
+.pr-1 {
+
+    padding-right: 1rem;
+}
+
+.pr-2 {
+
+    padding-right: 2rem;
+}
+
+.pr-3 {
+
+    padding-right: 3rem;
+}
+
+.pt-1 {
+
+    padding-top: 1rem;
+}
+
+.pt-2 {
+
+    padding-top: 2rem;
+}
+
+.pt-3 {
+
+    padding-top: 3rem;
+}
+
+.pb-1 {
+
+    padding-bottom: 1rem;
+}
+
+.pb-2 {
+
+    padding-bottom: 2rem;
+}
+
+.pb-3 {
+
+    padding-bottom: 3rem;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.heading-bold {
+    font-size: 30px;
+    color: black;
+}
+
+.min-font-size {
+    font-size: 20px;
+}
+
+.text-shadow-effect {
+    text-shadow: 2px 2px 5px grey;
+}
+
+.icon-height {
+    height: 70px;
+    width: 70px;
+}
+
+.avatar>img {
+    width: 10%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.rounded>img {
+    border-radius: 50%;
+}
+
+.very-small>img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.medium-small>img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.medium>img {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.large>img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.extra-large>img {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.dot-online {
+    height: 15px;
+    width: 15px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+
+}
+
+.dot-offline {
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 28.5rem;
+
+}
+
+.fontWeight {
+    font-weight: bolder;
+
+}
+
+.alert {
+    padding: 1rem;
+    background-color: transparent;
+    color: white;
+}
+
+.alert-danger {
+    padding: 1rem;
+    background-color: #f44336;
+    color: white;
+}
+
+.alert-success {
+    padding: 1rem;
+    background-color: green;
+    color: white;
+}
+
+.alert-warning {
+    padding: 1rem;
+    background-color: yellow;
+    color: white;
+}
+
+.alert-info {
+    padding: 1rem;
+    background-color: skyblue;
+    color: white;
+}
+
+.btn {
+    margin: 1rem;
+    width: 9rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 0.3rem;
+
+}
+
+.btn-primary {
+    background-color: royalblue;
+
+}
+
+.btn-submit {
+    background-color: green;
+}
+
+.btn-cancel {
+    background-color: red;
+}
+
+.btn-info {
+    background-color: skyblue;
+}
+
+.btn-warning {
+    background-color: yellow;
+}
+
+.btn-secondary {
+    margin: 1rem;
+    width: 9rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    border: 1px solid black;
+    color: black;
+    border-radius: 0.3rem;
+
+}
+
+
+.btn-primary-secondary {
+    border-color: royalblue;
+
+}
+
+.btn-primary-secondary:hover {
+    background-color: royalblue;
+
+}
+
+.btn-submit-secondary {
+    border-color: green;
+}
+
+.btn-submit-secondary:hover {
+    background-color: green;
+}
+
+.btn-cancel-secondary {
+    border-color: red;
+}
+
+.btn-cancel-secondary:hover {
+    background-color: red;
+}
+
+.Icon-btn {
+    background-color: royalblue;
+    border: none;
+    border-radius: 0.3rem;
+    color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.non-bullet-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--navColor);
+}
+
+.float-left {
+    float: left;
+}
+
+.block {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.horizontal-navigation-menu li a:hover {
+    background-color: #111;
+}
+
+.three-col-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid black;
+}
+
+.coloum {
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.two-col-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid black;
+}
+
+.checked {
+    color: orange;
+}
+
+.toast {
+    padding: 0.5rem;
+    margin: 0.5rem;
+
+}
+
+#snackbar {
+    visibility: hidden;
+    /* Hidden by default. Visible on click */
+    min-width: 250px;
+    /* Set a default minimum width */
+    margin-left: -125px;
+    /* Divide value of min-width by 2 */
+    background-color: green;
+    /* Black background color */
+    color: #fff;
+    /* White text color */
+    text-align: center;
+    /* Centered text */
+    border-radius: 2px;
+    /* Rounded borders */
+    padding: 16px;
+    /* Padding */
+    position: fixed;
+    /* Sit on top of the screen */
+    z-index: 1;
+    /* Add a z-index if needed */
+    left: 50%;
+    /* Center the snackbar */
+    bottom: 30px;
+    /* 30px from the bottom */
+}
+
+#snackbar-warn {
+    visibility: hidden;
+    /* Hidden by default. Visible on click */
+    min-width: 250px;
+    /* Set a default minimum width */
+    margin-left: -125px;
+    /* Divide value of min-width by 2 */
+    background-color: red;
+    /* Black background color */
+    color: #fff;
+    /* White text color */
+    text-align: center;
+    /* Centered text */
+    border-radius: 2px;
+    /* Rounded borders */
+    padding: 16px;
+    /* Padding */
+    position: fixed;
+    /* Sit on top of the screen */
+    z-index: 1;
+    /* Add a z-index if needed */
+    left: 50%;
+    /* Center the snackbar */
+    bottom: 30px;
+    /* 30px from the bottom */
+}
+
+
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+#snackbar-warn.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.heading1 {
+    font-weight: 600;
+    font-size: 36px !important;
+}
+
+.heading2 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.heading3 {
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.heading4 {
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.heading5 {
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.heading6 {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.text-color-blue {
+    color: blue;
+}
+
+.text-color-green {
+    color: green;
+}
+
+.small {
+    font-size: 14px;
+}
+
+.modal {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 40%;
+    padding: 0.5rem;
+    margin: 1rem 1rem 1rem 18rem;
+    /* margin-left: 10rem; */
+    color: black;
+    border-radius: 0.5rem;
+
+
+
+}
+
+.modal-content {
+    padding: 0.5rem;
+}
+
+.form {
+    padding: 0.4rem;
+    width: 50%;
+    background-color: grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5rem;
+    margin: 1rem 1rem 1rem 14rem;
+
+}
+
+.input-form {
+    border: 2px solid black;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 40%;
+
+
+}
+
+.error-message {
+    color: orange;
+}
+
+.notification {
+    margin: 1rem;
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.notification:hover {
+    background: black;
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: grey;
+    color: white;
+}
+
+.avatar-badge {
+    margin: 1rem;
+    /* background-color: #555; */
+    color: white;
+    text-decoration: none;
+    padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.badgeAvatar {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: yellow;
+    color: black
+}
+
+.Card-with-Shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* margin-left: 25rem;
+     */
+    margin-inline-start: 25rem;
+
+
+    padding: 0.3rem;
+    border: 1px solid black;
+    width: 9rem;
+}
+
+.card-vertical {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.Card-Horizontal {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-inline-start: 25rem;
+    display: grid;
+    grid-template-columns: auto auto;
+
+    padding: 0.3rem;
+    border: 1px solid black;
+    width: max-content;
+
+
+
+}
+
+.Card-Text {
+    margin-inline-start: 25rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+    width: max-content;
+
+}
+
+.Card-Overlay {
+    position: relative;
+    margin-inline-start: 25rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+    width: max-content;
+
+
+}
+
+.overlay {
+    position: absolute;
+    top: 5rem;
+    left: 2rem;
+
+
+}
+
+
+.Card-dismiss {
+    position: relative;
+    margin-inline-start: 25rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+    width: max-content;
+
+
+}
+
+.cross-btn {
+    border-radius: 50rem;
+    border: 1px solid gray;
+    width: fit-content;
+    padding: 0.5rem;
+    background-color: transparent;
+    color: grey;
+    font-weight: 20rem;
+}
+
+.dismiss {
+    position: absolute;
+    top: 0.2rem;
+    right: 0.4rem;
+}
+
+.Trending-badge {
+    width: max-content;
+    position: absolute;
+    left: 0rem;
+    top: 1rem;
+    padding: 0.1rem;
+    background-color: rgb(255, 134, 154);
+    color: white;
+    font-weight: bold;
+}
